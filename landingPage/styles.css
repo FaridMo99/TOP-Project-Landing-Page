@@ -81,16 +81,61 @@ button {
 .secondSection {
     display:flex;
     flex-direction:column;
+    align-items: center;
+    justify-content: center;
 }
 
 .randomInfo {
     font-weight:bold;
-    font-size:30px;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.secondSectionAll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square {
+    border:3px solid #3882F6;
+    width:80px;
+    height:80px;
+    border-radius: 10px;
+}
+
+.squareAndText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.sub {
+    margin-top: 10px;
+    
 }
 
 .thirdSection {
     background-color: rgb(216, 215, 215);
-  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+blockquote {
+    font-size:36px;
+    font-family:light italic;
+    color:#1F2937;
+}
+
+.author {
+    align-self: flex-end;
+    margin-top:30px;
+    margin-right: 40px;
+    font-weight:bold;
 }
 
 .fourthSection {

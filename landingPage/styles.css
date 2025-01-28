@@ -138,6 +138,31 @@ blockquote {
     font-weight:bold;
 }
 
-.fourthSection {
+.fourthSection, footer {
+    color:white;
+}
 
+.fourthSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourthSectionDiv {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 5px;
+    width: 80%;
+}
+
+.mainText {
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+
+.fourthSectionDiv button {
+    border:1px white solid;
+    margin-left:30px;
 }

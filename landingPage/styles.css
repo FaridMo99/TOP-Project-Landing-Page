@@ -11,6 +11,7 @@ body {
 section {
     width:100vw;
     height:100vh;
+    box-sizing: border-box;
 }
 
 .firstSection, footer, header {
@@ -138,14 +139,13 @@ blockquote {
     font-weight:bold;
 }
 
-.fourthSection, footer {
-    color:white;
-}
-
 .fourthSection {
+    color:white;
     display: flex;
-    justify-content: center;
+    flex-direction:column ;
+    justify-content: flex-end;
     align-items: center;
+    box-sizing: border-box;
 }
 
 .fourthSectionDiv {
@@ -165,4 +165,21 @@ blockquote {
 .fourthSectionDiv button {
     border:1px white solid;
     margin-left:30px;
+}
+
+footer {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    align-self: flex-end;
+    
+}
+
+.yes {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
